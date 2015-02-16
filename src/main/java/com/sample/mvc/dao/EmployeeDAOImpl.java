@@ -12,6 +12,11 @@ public class EmployeeDAOImpl implements EmployeeDAO{
 	@Autowired
     private SessionFactory sessionFactory;
 	
+	public EmployeeDAOImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public void addEmployee(EmployeeCommand employee) {
 		 this.sessionFactory.getCurrentSession().save(employee);

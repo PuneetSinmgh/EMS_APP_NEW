@@ -15,9 +15,17 @@ import com.sample.mvc.service.EmployeeService;
 
 @Controller
 public class EmployeeController {
+	
 	@Autowired
 	private EmployeeService employeeService;
 	
+	
+	
+	public EmployeeController() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String viewHome() {
 		return "home";

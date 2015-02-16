@@ -12,6 +12,12 @@ import com.sample.mvc.model.EmployeeCommand;
 @Service
 public class EmployeeServiceImpl  implements EmployeeService{
 
+	
+	public EmployeeServiceImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Autowired
 	private EmployeeDAO employeeDAO;
 	

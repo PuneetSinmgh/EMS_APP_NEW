@@ -1,2 +1,0 @@
-processClover (  {"children":["com/sample/mvc/service/","com/sample/mvc/model/","com/sample/mvc/dao/","com/sample/mvc/controller/"],"name":"Clover database Fri Jan 16 2015 15:23:12 IST","stats":{"AvgMethodComplexity":1.0434783,"Complexity":24,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":4,"TotalPercentageCovered":39.655174,"TotalStatements":33,"UncoveredElements":35},"title":"Employee Management System 1.0-SNAPSHOT"}
- ); 

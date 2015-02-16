@@ -1,7 +1,0 @@
-D:\mvn example\ems_db\src\test\java\com\sample\mvc\init\BaseTestConfig.java
-D:\mvn example\ems_db\src\test\java\com\sample\mvc\controllerTest\EmployeeControllerTest.java
-D:\mvn example\ems_db\src\test\java\com\sample\mvc\serviceTest\EmployeeServiceTest.java
-D:\mvn example\ems_db\src\test\java\com\sample\mvc\seleniumTests\EmployeeDeleteSeleniumTest.java
-D:\mvn example\ems_db\src\test\java\com\sample\mvc\daoTest\EmployeeDAOImplTest.java
-D:\mvn example\ems_db\src\test\java\com\sample\mvc\seleniumTests\EmployeeAddSeleniumTest.java
-D:\mvn example\ems_db\src\test\java\com\sample\mvc\seleniumTests\EmployeeEditSeleniumTest.java

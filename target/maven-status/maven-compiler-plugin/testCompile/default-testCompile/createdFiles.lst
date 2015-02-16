@@ -1,6 +1,0 @@
-com\sample\mvc\seleniumTests\EmployeeEditSeleniumTest.class
-com\sample\mvc\controllerTest\EmployeeControllerTest.class
-com\sample\mvc\init\BaseTestConfig.class
-com\sample\mvc\serviceTest\EmployeeServiceTest.class
-com\sample\mvc\seleniumTests\EmployeeAddSeleniumTest.class
-com\sample\mvc\seleniumTests\EmployeeDeleteSeleniumTest.class
