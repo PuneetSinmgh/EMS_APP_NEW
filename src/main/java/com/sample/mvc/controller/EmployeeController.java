@@ -23,7 +23,7 @@ public class EmployeeController {
 	
 	public EmployeeController() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
 
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
@@ -61,8 +61,8 @@ public class EmployeeController {
 	}
 	
     @RequestMapping(value = "/delete/{employeeId}")
-    public String deleteEmplyee(@PathVariable ("employeeId") Integer employeeId)
-    {
+    public String deleteEmplyee(@PathVariable ("employeeId") Integer employeeId){
+    
         employeeService.deleteEmployee(employeeId);
         return "redirect:/list";
     }

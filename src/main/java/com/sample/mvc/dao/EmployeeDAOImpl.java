@@ -14,7 +14,7 @@ public class EmployeeDAOImpl implements EmployeeDAO{
 	
 	public EmployeeDAOImpl() {
 		super();
-		// TODO Auto-generated constructor stub
+	
 	}
 
 	@Override
@@ -37,8 +37,8 @@ public class EmployeeDAOImpl implements EmployeeDAO{
 
 	@Override
 	public EmployeeCommand getEmployeebyId(Integer employeeId) {
-		EmployeeCommand empCmd = (EmployeeCommand) this.sessionFactory.getCurrentSession().get(EmployeeCommand.class, employeeId);
-		return empCmd;
+		return  (EmployeeCommand) this.sessionFactory.getCurrentSession().get(EmployeeCommand.class, employeeId);
+		
 	}
 
 	@Override
