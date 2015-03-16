@@ -1,7 +1,7 @@
 analyseLocally=true
 eclipse.preferences.version=1
 extraProperties=
-lastAnalysisDate=1424782903228
-projectKey=EMS1
+lastAnalysisDate=1426508430042
+projectKey=com.mycompany.app\:EmployeeManagementSystem
 serverUrl=http\://localhost\:9000
 version=2
