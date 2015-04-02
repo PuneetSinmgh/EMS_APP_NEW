@@ -11,7 +11,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   
-  
    <repositories>
     <repository>
       <id>central</id>
@@ -66,7 +65,6 @@
     </plugins>
    
   </build>
-  
 
 <!--   <reporting>
   		<plugins>
