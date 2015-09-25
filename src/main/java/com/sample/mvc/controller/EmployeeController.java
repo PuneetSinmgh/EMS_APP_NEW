@@ -31,7 +31,7 @@ public class EmployeeController {
 		return "home";
 	}
 	
-	@RequestMapping("/list")
+	@RequestMapping("/jsp/list")
 	public String listContacts(Map<String, Object> map) {
 	    map.put("contact", new EmployeeCommand());
 	    map.put("contactList", employeeService.listContact());
@@ -39,7 +39,7 @@ public class EmployeeController {
 	}
 	
 	// add employee controller 
-	@RequestMapping(value = "/add", method = RequestMethod.POST)
+	@RequestMapping(value = "/jsp/add", method = RequestMethod.POST)
 	public ModelAndView addEmployee(
 			@ModelAttribute EmployeeCommand employeeCommand) {
 		employeeService.addEmployee(employeeCommand);

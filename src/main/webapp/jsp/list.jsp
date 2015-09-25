@@ -108,7 +108,7 @@ a:hover {color:#80A24A;}   /* mouse over link */
 </c:forEach>
 </table>
 </c:if>
-<a href="<%=request.getContextPath()%>/home.htm">Back to Main</a>
+<a href="<%=request.getContextPath()%>/jsp/home.jsp">Back to Main</a>
 </div>
 </body>
 </html>

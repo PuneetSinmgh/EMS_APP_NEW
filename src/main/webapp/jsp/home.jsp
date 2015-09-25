@@ -103,7 +103,7 @@ a:hover {color:#80A24A;}   /* mouse over link */
 		   </c:forEach>
 		 </table>
   	<a href="<%=request.getContextPath()%>/jsp/add.jsp" id="AddEmployeeLink">Add Employee</a>
-	<a href="list">List Employees</a>
+	<a href="<%=request.getContextPath()%>/jsp/list.jsp">List Employees</a>
   </div>
 </body>
 </html>

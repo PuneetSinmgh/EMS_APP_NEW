@@ -109,7 +109,7 @@ a:hover {color:#80A24A;}   /* mouse over link */
 		<!-- <input type="submit" value="Add Employee" id="SubmitEmployee" class="button"/> -->
 		<button type="submit"  value="Add Employee" id="SubmitEmployee">Add Employee</button>
 	</form>
-<a href="<%=request.getContextPath()%>/home.jsp">Back to Main</a>
+<a href="<%=request.getContextPath()%>/jsp/home.jsp">Back to Main</a>
 </div>
 </body>
 </html>
