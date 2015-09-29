@@ -93,24 +93,6 @@
    
   </build>
 
-<!--   <reporting>
-  		<plugins>
-  		<plugin>
-    
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>cobertura-maven-plugin</artifactId>
-    <configuration>
-       <formats>
-           <format>html</format>
-           <format>xml</format>
-       </formats>
-    </configuration>
-    
-	</plugin> 
-	</plugins>
-	
-  </reporting> -->
-  
   
  <dependencies>
  	
@@ -151,7 +133,7 @@
 	</dependency>
 
     
-   <dependency>
+    <dependency>
 	<groupId>org.springframework</groupId>
 	<artifactId>spring</artifactId>
 	<version>2.5.6</version>
@@ -161,7 +143,7 @@
 	<groupId>org.hibernate</groupId>
 	<artifactId>hibernate-annotations</artifactId>
 	<version>3.5.1-Final</version>
-     </dependency>
+    </dependency>
 
 	<dependency>
 	<groupId>org.hibernate</groupId>
