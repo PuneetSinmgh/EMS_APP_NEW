@@ -27,7 +27,7 @@ body { margin:0; padding:0; }
     font: 12px Arial, Helvetica, sans-serif;
     color: #666;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
+    -webkit-border-radius: 5px; 
     -moz-border-radius: 5px;
 }
 .smart-green h1 {
@@ -103,7 +103,7 @@ a:hover {color:#80A24A;}   /* mouse over link */
 		   </c:forEach>
 		 </table>
   	<a href="<%=request.getContextPath()%>/jsp/add.jsp" id="AddEmployeeLink">Add Employee</a>
-	<a href="<%=request.getContextPath()%>/jsp/list.jsp">List Employees</a>
+	<a href="<%=request.getContextPath()%>/jsp/list">List Employees</a>
   </div>
 </body>
 </html>

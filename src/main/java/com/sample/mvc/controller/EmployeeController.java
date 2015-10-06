@@ -39,31 +39,31 @@ public class EmployeeController {
 	}
 	
 	// add employee controller 
-	@RequestMapping(value = "/jsp/add", method = RequestMethod.POST)
+	@RequestMapping(value = "/jsp/add", method=RequestMethod.POST)
 	public ModelAndView addEmployee(
 			@ModelAttribute EmployeeCommand employeeCommand) {
 		employeeService.addEmployee(employeeCommand);
 		return new ModelAndView("redirect:list");
 	}
 	 
-	@RequestMapping(value = "/edit/{code}")
+	@RequestMapping(value = "/jsp/edit/{code}")
 	public String getEmployeeById(@PathVariable ("code") Integer empCode, Model model) {
 		EmployeeCommand employee = employeeService.getEmployeebyId(empCode);
 		model.addAttribute("employee", employee);
 		return "edit";
 	}
 	
-	@RequestMapping(value = "/edit/update", method = RequestMethod.POST)
+	@RequestMapping(value = "/jsp/edit/update", method = RequestMethod.POST)
 	public String updateEmployee(
 			@ModelAttribute EmployeeCommand employeeCommand) {
 		employeeService.updateEmployee(employeeCommand);
-		return "redirect:/list";
+		return "redirect:/jsp/list";
 	}
 	
-    @RequestMapping(value = "/delete/{employeeId}")
+    @RequestMapping(value = "/jsp/delete/{employeeId}")
     public String deleteEmplyee(@PathVariable ("employeeId") Integer employeeId){
     
         employeeService.deleteEmployee(employeeId);
-        return "redirect:/list";
+        return "redirect:/jsp/list";
     }
 }

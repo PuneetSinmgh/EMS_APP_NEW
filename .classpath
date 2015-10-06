@@ -34,5 +34,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.0%Foundation-1.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/scala_lib"/>
 	<classpathentry kind="lib" path="C:/Users/puneetsi/Downloads/gatling-core-2.1.7.jar"/>
+	<classpathentry kind="src" path="/EmployeeApplicationSprint2.1"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
